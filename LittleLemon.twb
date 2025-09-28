@@ -680,12 +680,6 @@
             <column-instance column='[Calculation_1402589866900365312]' derivation='Sum' name='[sum:Calculation_1402589866900365312:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.13sqvf11gupfq519hvfsw0vigxqz].[Action (Customer Name)]'>
-            <groupfilter function='member' level='[Customer Name]' member='&quot;Petronille Scrimgeour&quot;' user:ui-action-filter='[Action1_131E5DA93DAB4C4C8EA3BFE8F98F324C]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
-          </filter>
-          <slices>
-            <column>[federated.13sqvf11gupfq519hvfsw0vigxqz].[Action (Customer Name)]</column>
-          </slices>
           <aggregation value='true' />
         </view>
         <style>
@@ -782,8 +776,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='11' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Customer Sales' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -907,7 +901,7 @@
       </viewpoint>
       <simple-id uuid='{FDD92F15-C6FA-4714-90D2-DFE9213840D3}' />
     </window>
-    <window class='worksheet' name='Sales Bubble Chart'>
+    <window class='worksheet' maximized='true' name='Sales Bubble Chart'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -979,7 +973,7 @@
       </viewpoint>
       <simple-id uuid='{39EAD0E2-FE30-48E1-BC6A-A87A8BC71F43}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Customer Sales'>
           <zoom type='entire-view' />
